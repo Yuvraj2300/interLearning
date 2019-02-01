@@ -11,6 +11,7 @@ public class Permutation {
 	public static boolean checkPerm(String s1, String s2) {
 		String srtS1 = sortString(s1);
 		String srtS2 = sortString(s2);
+		System.out.println(":DSFADSFASDF");
 
 		if (srtS1.length() != srtS2.length()) {
 			return false;
